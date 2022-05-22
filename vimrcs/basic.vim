@@ -160,6 +160,7 @@ set encoding=utf8
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
 
+" System Copyboard
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
@@ -191,6 +192,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" Aplha Support
+hi Normal ctermfg=255 ctermbg=none
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
